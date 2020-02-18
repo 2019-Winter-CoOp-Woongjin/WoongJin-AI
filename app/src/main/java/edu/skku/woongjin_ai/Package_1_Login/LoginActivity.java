@@ -38,13 +38,13 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import edu.skku.woongjin_ai_winter.GlobalApplication;
-import edu.skku.woongjin_ai_winter.Package_3_Main.MainActivity;
-import edu.skku.woongjin_ai_winter.Package_2_2_KaKao.KakaoRegisterActivity;
-import edu.skku.woongjin_ai_winter.Package_4_3_GameList.BattleClass.TestService;
-import edu.skku.woongjin_ai_winter.R;
-import edu.skku.woongjin_ai_winter.Package_2_1_Register.RegisterActivity;
-import edu.skku.woongjin_ai_winter.UserInfo;
+import edu.skku.woongjin_ai.GlobalApplication;
+import edu.skku.woongjin_ai.Package_3_Main.MainActivity;
+import edu.skku.woongjin_ai.Package_2_2_KaKao.KakaoRegisterActivity;
+import edu.skku.woongjin_ai.Package_4_3_GameList.BattleClass.TestService;
+import edu.skku.woongjin_ai.R;
+import edu.skku.woongjin_ai.Package_2_1_Register.RegisterActivity;
+import edu.skku.woongjin_ai.UserInfo;
 
 /*
 first
