@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter;
+package edu.skku.woongjin_ai;
 
 import java.util.HashMap;
 import java.util.Map;

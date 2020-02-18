@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter;
+package edu.skku.woongjin_ai;
 
 import android.app.Activity;
 import android.app.Application;
@@ -6,7 +6,7 @@ import android.widget.Toast;
 
 import com.kakao.auth.KakaoSDK;
 
-import edu.skku.woongjin_ai_winter.Package_2_2_KaKao.KakaoSDKAdapter;
+import edu.skku.woongjin_ai.Package_2_2_KaKao.KakaoSDKAdapter;
 
 public class GlobalApplication extends Application {
     private static volatile GlobalApplication obj = null;

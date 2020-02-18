@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_6_Chat;
+package edu.skku.woongjin_ai.Package_4_6_Chat;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import edu.skku.woongjin_ai_winter.R;
+import edu.skku.woongjin_ai.R;
 
 /**
  * Created by KPlo on 2018. 10. 28..

@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_WordList_notusing;
+package edu.skku.woongjin_ai.Package_WordList_notusing;
 
 import android.graphics.drawable.Drawable;
 

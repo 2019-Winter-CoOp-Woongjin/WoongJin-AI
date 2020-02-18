@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_5_ShowFriend;
+package edu.skku.woongjin_ai.Package_4_5_ShowFriend;
 
 public class ShowFriendListItem {
     private String faceFriend;

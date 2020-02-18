@@ -1,5 +1,5 @@
 
-package edu.skku.woongjin_ai_winter.Package_NotUsingActivity;
+package edu.skku.woongjin_ai.Package_NotUsingActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -21,7 +21,7 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 
-import edu.skku.woongjin_ai_winter.R;
+import edu.skku.woongjin_ai.R;
 
 public class AddFriendActivity extends AppCompatActivity {
 

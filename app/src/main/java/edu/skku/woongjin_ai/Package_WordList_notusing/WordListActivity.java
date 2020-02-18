@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_WordList_notusing;
+package edu.skku.woongjin_ai.Package_WordList_notusing;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -26,9 +26,9 @@ import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
-import edu.skku.woongjin_ai_winter.Package_3_Main.MainActivity;
-import edu.skku.woongjin_ai_winter.R;
-import edu.skku.woongjin_ai_winter.Package_4_1_NationBook.Select_Book.ReadScript.SelectType.SelectTypeActivity;
+import edu.skku.woongjin_ai.Package_3_Main.MainActivity;
+import edu.skku.woongjin_ai.R;
+import edu.skku.woongjin_ai.Package_4_1_NationBook.Select_Book.ReadScript.SelectType.SelectTypeActivity;
 
 /*
 from ReadScriptActivity

@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_6_Chat;
+package edu.skku.woongjin_ai.Package_4_6_Chat;
 
 public class ChatDTO {
 

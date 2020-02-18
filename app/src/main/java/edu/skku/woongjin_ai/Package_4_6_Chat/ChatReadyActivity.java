@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_6_Chat;
+package edu.skku.woongjin_ai.Package_4_6_Chat;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -19,8 +19,8 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import edu.skku.woongjin_ai_winter.GlobalApplication;
-import edu.skku.woongjin_ai_winter.R;
+import edu.skku.woongjin_ai.GlobalApplication;
+import edu.skku.woongjin_ai.R;
 
 public class ChatReadyActivity extends AppCompatActivity {
 

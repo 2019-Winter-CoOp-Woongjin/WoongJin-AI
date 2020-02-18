@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter;
+package edu.skku.woongjin_ai;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;

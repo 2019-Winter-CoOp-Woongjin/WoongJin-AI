@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_5_ShowFriend;
+package edu.skku.woongjin_ai.Package_4_5_ShowFriend;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -25,7 +25,7 @@ import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
-import edu.skku.woongjin_ai_winter.R;
+import edu.skku.woongjin_ai.R;
 
 public class ShowFriendListAdapter extends BaseAdapter {
 

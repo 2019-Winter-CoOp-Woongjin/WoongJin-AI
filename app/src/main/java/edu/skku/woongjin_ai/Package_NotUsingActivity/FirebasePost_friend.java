@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_NotUsingActivity;
+package edu.skku.woongjin_ai.Package_NotUsingActivity;
 
 import java.util.HashMap;
 import java.util.Map;
