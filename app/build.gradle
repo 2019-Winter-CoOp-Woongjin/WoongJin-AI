@@ -8,7 +8,7 @@ List<String> dirs = [
 android {
     signingConfigs {
         release {
-            storeFile file('C:\\Users\\user\\AndroidStudioProjects\\key\\woongjin.jks')
+            //storeFile file('C:\\Users\\user\\AndroidStudioProjects\\key\\woongjin.jks')
             storePassword 'woongjin'
             keyAlias = 'woongjin'
             keyPassword 'woongjin'
@@ -16,7 +16,7 @@ android {
     }
     compileSdkVersion 28
     defaultConfig {
-        applicationId "edu.skku.woongjin_ai"
+        applicationId "edu.skku.woongjin_ai_winter"
         minSdkVersion 23
         targetSdkVersion 28
         versionCode 1
@@ -72,5 +72,13 @@ dependencies {
     implementation 'com.prolificinteractive:material-calendarview:1.4.3'
     implementation 'gun0912.ted:tedpermission:2.0.0'
     implementation 'com.github.PhilJay:MpAndroidChart:v3.0.2'
+    implementation 'com.android.support:recyclerview-v7:28.+'
+
+    implementation 'com.github.bumptech.glide:glide:3.8.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+
+   /* implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'*/
+
 }
 apply plugin: 'com.google.gms.google-services'
