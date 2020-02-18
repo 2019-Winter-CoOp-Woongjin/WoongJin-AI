@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_3_GameList.BattleClass.Game.ProblemSetting;
+package edu.skku.woongjin_ai.Package_4_3_GameList.BattleClass.Game.ProblemSetting;
 
 import android.app.Activity;
 import android.graphics.Color;
@@ -11,8 +11,8 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.TextView;
 
-import edu.skku.woongjin_ai_winter.GlobalApplication;
-import edu.skku.woongjin_ai_winter.R;
+import edu.skku.woongjin_ai.GlobalApplication;
+import edu.skku.woongjin_ai.R;
 
 public class PopupScript extends Activity {
 

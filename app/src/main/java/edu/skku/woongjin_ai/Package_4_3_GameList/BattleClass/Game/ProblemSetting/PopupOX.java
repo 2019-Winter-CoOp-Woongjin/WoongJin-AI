@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_3_GameList.BattleClass.Game.ProblemSetting;
+package edu.skku.woongjin_ai.Package_4_3_GameList.BattleClass.Game.ProblemSetting;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -20,8 +20,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
-import android.widget.RadioButton;
-import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -30,9 +28,9 @@ import com.google.firebase.database.FirebaseDatabase;
 
 import org.json.JSONException;
 
-import edu.skku.woongjin_ai_winter.GlobalApplication;
-import edu.skku.woongjin_ai_winter.Package_4_3_GameList.BattleClass.Game.Problem;
-import edu.skku.woongjin_ai_winter.R;
+import edu.skku.woongjin_ai.GlobalApplication;
+import edu.skku.woongjin_ai.Package_4_3_GameList.BattleClass.Game.Problem;
+import edu.skku.woongjin_ai.R;
 
 public class PopupOX extends Activity {
 

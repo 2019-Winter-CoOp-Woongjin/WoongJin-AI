@@ -1,15 +1,14 @@
-package edu.skku.woongjin_ai_winter.Package_4_3_GameList.BattleClass;
+package edu.skku.woongjin_ai.Package_4_3_GameList.BattleClass;
 
 import android.app.Service;
 import android.content.Intent;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
-import android.util.Log;
 
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-import edu.skku.woongjin_ai_winter.GlobalApplication;
+import edu.skku.woongjin_ai.GlobalApplication;
 
 public class TestService extends Service {
 

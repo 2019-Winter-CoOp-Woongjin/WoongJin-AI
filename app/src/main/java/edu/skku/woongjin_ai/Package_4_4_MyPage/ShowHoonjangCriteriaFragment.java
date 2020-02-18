@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_4_MyPage;
+package edu.skku.woongjin_ai.Package_4_4_MyPage;
 
 import android.content.Context;
 import android.net.Uri;
@@ -13,7 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import edu.skku.woongjin_ai_winter.R;
+import edu.skku.woongjin_ai.R;
 
 public class ShowHoonjangCriteriaFragment extends Fragment {
 

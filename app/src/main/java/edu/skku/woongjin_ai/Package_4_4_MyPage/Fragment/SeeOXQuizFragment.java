@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_4_MyPage.Fragment;
+package edu.skku.woongjin_ai.Package_4_4_MyPage.Fragment;
 
 import android.content.Context;
 import android.net.Uri;
@@ -15,10 +15,10 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import edu.skku.woongjin_ai_winter.Package_4_2_MainQuizType.QuizType.FriendOXQuizFragment;
-import edu.skku.woongjin_ai_winter.Package_4_4_MyPage.MyQuiz.MyQuizActivity;
-import edu.skku.woongjin_ai_winter.Package_4_4_MyPage.LikeQuiz.LikeQuizActivity;
-import edu.skku.woongjin_ai_winter.R;
+import edu.skku.woongjin_ai.Package_4_2_MainQuizType.QuizType.FriendOXQuizFragment;
+import edu.skku.woongjin_ai.Package_4_4_MyPage.MyQuiz.MyQuizActivity;
+import edu.skku.woongjin_ai.Package_4_4_MyPage.LikeQuiz.LikeQuizActivity;
+import edu.skku.woongjin_ai.R;
 
 public class SeeOXQuizFragment extends Fragment implements ShowWhoLikedFragment.OnFragmentInteractionListener {
 

@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_2_MainQuizType;
+package edu.skku.woongjin_ai.Package_4_2_MainQuizType;
 
 import android.content.Context;
 import android.content.Intent;
@@ -14,9 +14,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import edu.skku.woongjin_ai_winter.Package_4_2_MainQuizType.NationQuiz.NationQuizActivity;
-import edu.skku.woongjin_ai_winter.Package_3_Main.MainActivity;
-import edu.skku.woongjin_ai_winter.R;
+import edu.skku.woongjin_ai.Package_4_2_MainQuizType.NationQuiz.NationQuizActivity;
+import edu.skku.woongjin_ai.Package_3_Main.MainActivity;
+import edu.skku.woongjin_ai.R;
 
 /*
 from MainActivity

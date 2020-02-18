@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_2_MainQuizType;
+package edu.skku.woongjin_ai.Package_4_2_MainQuizType;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -15,7 +15,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 
-import edu.skku.woongjin_ai_winter.R;
+import edu.skku.woongjin_ai.R;
 
 public class ShowVideoHintActivity extends AppCompatActivity {
 

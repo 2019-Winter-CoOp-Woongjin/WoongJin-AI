@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_4_MyPage.Fragment;
+package edu.skku.woongjin_ai.Package_4_4_MyPage.Fragment;
 
 import android.content.Context;
 import android.net.Uri;
@@ -19,10 +19,10 @@ import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
 
-import edu.skku.woongjin_ai_winter.Package_4_4_MyPage.MyQuiz.MyQuizActivity;
-import edu.skku.woongjin_ai_winter.Package_4_5_ShowFriend.ShowFriendListAdapter;
-import edu.skku.woongjin_ai_winter.R;
-import edu.skku.woongjin_ai_winter.UserInfo;
+import edu.skku.woongjin_ai.Package_4_4_MyPage.MyQuiz.MyQuizActivity;
+import edu.skku.woongjin_ai.Package_4_5_ShowFriend.ShowFriendListAdapter;
+import edu.skku.woongjin_ai.R;
+import edu.skku.woongjin_ai.UserInfo;
 
 public class ShowWhoLikedFragment extends Fragment {
 

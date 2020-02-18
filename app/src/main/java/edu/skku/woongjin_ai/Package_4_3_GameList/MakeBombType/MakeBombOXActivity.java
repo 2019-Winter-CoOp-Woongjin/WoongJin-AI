@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_3_GameList.MakeBombType;
+package edu.skku.woongjin_ai.Package_4_3_GameList.MakeBombType;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -20,10 +20,10 @@ import com.google.firebase.database.FirebaseDatabase;
 import java.util.HashMap;
 import java.util.Map;
 
-import edu.skku.woongjin_ai_winter.Package_4_3_GameList.GameListActivity;
-import edu.skku.woongjin_ai_winter.Package_3_Main.MainActivity;
-import edu.skku.woongjin_ai_winter.R;
-import edu.skku.woongjin_ai_winter.Package_4_2_MainQuizType.ShowScriptFragment;
+import edu.skku.woongjin_ai.Package_4_3_GameList.GameListActivity;
+import edu.skku.woongjin_ai.Package_3_Main.MainActivity;
+import edu.skku.woongjin_ai.R;
+import edu.skku.woongjin_ai.Package_4_2_MainQuizType.ShowScriptFragment;
 
 public class MakeBombOXActivity extends AppCompatActivity
         implements ShowScriptFragment.OnFragmentInteractionListener {

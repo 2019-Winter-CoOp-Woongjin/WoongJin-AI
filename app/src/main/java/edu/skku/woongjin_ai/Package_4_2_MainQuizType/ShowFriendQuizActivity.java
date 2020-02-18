@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_2_MainQuizType;
+package edu.skku.woongjin_ai.Package_4_2_MainQuizType;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -35,23 +35,22 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Random;
 
-import edu.skku.woongjin_ai_winter.DrawerDialog;
-import edu.skku.woongjin_ai_winter.Package_4_1_NationBook.Select_Book.ReadScript.SelectType.NewHoonjangFragment;
-import edu.skku.woongjin_ai_winter.Package_3_Main.MainActivity;
-import edu.skku.woongjin_ai_winter.Package_4_2_MainQuizType.Correct_Wrong_Quiz.CorrectFriendQuizFragment;
-import edu.skku.woongjin_ai_winter.Package_4_2_MainQuizType.Correct_Wrong_Quiz.WrongFriendQuizFragment;
-import edu.skku.woongjin_ai_winter.Package_4_2_MainQuizType.QuizType.FriendChoiceQuizFragment;
-import edu.skku.woongjin_ai_winter.Package_4_2_MainQuizType.QuizType.FriendOXQuizFragment;
-import edu.skku.woongjin_ai_winter.Package_4_2_MainQuizType.QuizType.FriendShortwordQuizFragment;
-import edu.skku.woongjin_ai_winter.Package_4_4_MyPage.MyPageActivity;
-import edu.skku.woongjin_ai_winter.Package_4_4_MyPage.LikeQuiz.LikeQuizListAdapter;
-import edu.skku.woongjin_ai_winter.Package_4_1_NationBook.Select_Book.ReadScript.SelectType.QuizType.QuizChoiceTypeInfo;
-import edu.skku.woongjin_ai_winter.Package_4_1_NationBook.Select_Book.ReadScript.SelectType.QuizType.QuizOXShortwordTypeInfo;
-import edu.skku.woongjin_ai_winter.Package_4_5_ShowFriend.ShowFriendActivity;
-import edu.skku.woongjin_ai_winter.Package_4_5_ShowFriend.ShowFriendListAdapter;
-import edu.skku.woongjin_ai_winter.Package_4_6_Chat.ChatReadyActivity;
-import edu.skku.woongjin_ai_winter.R;
-import edu.skku.woongjin_ai_winter.UserInfo;
+import edu.skku.woongjin_ai.Package_4_1_NationBook.Select_Book.ReadScript.SelectType.NewHoonjangFragment;
+import edu.skku.woongjin_ai.Package_3_Main.MainActivity;
+import edu.skku.woongjin_ai.Package_4_2_MainQuizType.Correct_Wrong_Quiz.CorrectFriendQuizFragment;
+import edu.skku.woongjin_ai.Package_4_2_MainQuizType.Correct_Wrong_Quiz.WrongFriendQuizFragment;
+import edu.skku.woongjin_ai.Package_4_2_MainQuizType.QuizType.FriendChoiceQuizFragment;
+import edu.skku.woongjin_ai.Package_4_2_MainQuizType.QuizType.FriendOXQuizFragment;
+import edu.skku.woongjin_ai.Package_4_2_MainQuizType.QuizType.FriendShortwordQuizFragment;
+import edu.skku.woongjin_ai.Package_4_4_MyPage.MyPageActivity;
+import edu.skku.woongjin_ai.Package_4_4_MyPage.LikeQuiz.LikeQuizListAdapter;
+import edu.skku.woongjin_ai.Package_4_1_NationBook.Select_Book.ReadScript.SelectType.QuizType.QuizChoiceTypeInfo;
+import edu.skku.woongjin_ai.Package_4_1_NationBook.Select_Book.ReadScript.SelectType.QuizType.QuizOXShortwordTypeInfo;
+import edu.skku.woongjin_ai.Package_4_5_ShowFriend.ShowFriendActivity;
+import edu.skku.woongjin_ai.Package_4_5_ShowFriend.ShowFriendListAdapter;
+import edu.skku.woongjin_ai.Package_4_6_Chat.ChatReadyActivity;
+import edu.skku.woongjin_ai.R;
+import edu.skku.woongjin_ai.UserInfo;
 
 /*
 from MainQuizTypeFragment

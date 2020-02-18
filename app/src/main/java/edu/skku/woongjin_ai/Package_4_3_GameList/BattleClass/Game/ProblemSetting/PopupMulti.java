@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_3_GameList.BattleClass.Game.ProblemSetting;
+package edu.skku.woongjin_ai.Package_4_3_GameList.BattleClass.Game.ProblemSetting;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -9,7 +9,6 @@ import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.text.method.ScrollingMovementMethod;
-import android.util.Log;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.View;
@@ -24,9 +23,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import edu.skku.woongjin_ai_winter.GlobalApplication;
-import edu.skku.woongjin_ai_winter.Package_4_3_GameList.BattleClass.Game.Problem;
-import edu.skku.woongjin_ai_winter.R;
+import edu.skku.woongjin_ai.GlobalApplication;
+import edu.skku.woongjin_ai.Package_4_3_GameList.BattleClass.Game.Problem;
+import edu.skku.woongjin_ai.R;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 

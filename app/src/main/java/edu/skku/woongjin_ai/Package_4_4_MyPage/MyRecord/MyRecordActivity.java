@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_4_MyPage.MyRecord;
+package edu.skku.woongjin_ai.Package_4_4_MyPage.MyRecord;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -43,9 +43,9 @@ import java.util.Date;
 import java.util.List;
 import java.util.concurrent.Executors;
 
-import edu.skku.woongjin_ai_winter.Package_3_Main.MainActivity;
-import edu.skku.woongjin_ai_winter.R;
-import edu.skku.woongjin_ai_winter.UserInfo;
+import edu.skku.woongjin_ai.Package_3_Main.MainActivity;
+import edu.skku.woongjin_ai.R;
+import edu.skku.woongjin_ai.UserInfo;
 
 
 //중요! 사용자에 Data 없을시 튕김 20.02.05

@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_4_MyPage.LikeQuiz;
+package edu.skku.woongjin_ai.Package_4_4_MyPage.LikeQuiz;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-import edu.skku.woongjin_ai_winter.R;
+import edu.skku.woongjin_ai.R;
 
 /*
 in ShowFriendQuizActivity

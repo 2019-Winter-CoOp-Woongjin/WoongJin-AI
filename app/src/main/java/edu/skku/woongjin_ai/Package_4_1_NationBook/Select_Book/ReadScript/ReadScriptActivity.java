@@ -28,7 +28,6 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
-import edu.skku.woongjin_ai.DrawerDialog;
 import edu.skku.woongjin_ai.Package_4_1_NationBook.Select_Book.ReadScript.SelectType.NewHoonjangFragment;
 import edu.skku.woongjin_ai.Package_3_Main.MainActivity;
 import edu.skku.woongjin_ai.Package_4_5_ShowFriend.ShowFriendActivity;

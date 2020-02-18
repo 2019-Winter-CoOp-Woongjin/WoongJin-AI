@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_3_GameList.SolveBombType;
+package edu.skku.woongjin_ai.Package_4_3_GameList.SolveBombType;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -24,11 +24,11 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import edu.skku.woongjin_ai_winter.Package_4_3_GameList.SolveBombType.Fragment.CorrectBombFragment;
-import edu.skku.woongjin_ai_winter.Package_4_3_GameList.SolveBombType.Fragment.EndBombFragment;
-import edu.skku.woongjin_ai_winter.Package_4_3_GameList.SolveBombType.Fragment.WrongBombFragment;
-import edu.skku.woongjin_ai_winter.R;
-import edu.skku.woongjin_ai_winter.Package_4_2_MainQuizType.ShowScriptFragment;
+import edu.skku.woongjin_ai.Package_4_3_GameList.SolveBombType.Fragment.CorrectBombFragment;
+import edu.skku.woongjin_ai.Package_4_3_GameList.SolveBombType.Fragment.EndBombFragment;
+import edu.skku.woongjin_ai.Package_4_3_GameList.SolveBombType.Fragment.WrongBombFragment;
+import edu.skku.woongjin_ai.R;
+import edu.skku.woongjin_ai.Package_4_2_MainQuizType.ShowScriptFragment;
 
 public class SolveBombOXActivity extends AppCompatActivity implements ShowScriptFragment.OnFragmentInteractionListener {
     DatabaseReference mPostReference, wPostReference;

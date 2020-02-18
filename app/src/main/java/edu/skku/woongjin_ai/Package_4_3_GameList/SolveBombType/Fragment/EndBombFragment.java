@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_3_GameList.SolveBombType.Fragment;
+package edu.skku.woongjin_ai.Package_4_3_GameList.SolveBombType.Fragment;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,8 +16,8 @@ import com.google.firebase.database.ValueEventListener;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import edu.skku.woongjin_ai_winter.Package_4_3_GameList.GameListActivity;
-import edu.skku.woongjin_ai_winter.R;
+import edu.skku.woongjin_ai.Package_4_3_GameList.GameListActivity;
+import edu.skku.woongjin_ai.R;
 
 public class EndBombFragment extends AppCompatActivity {
     Intent intent, intent_gamelist;

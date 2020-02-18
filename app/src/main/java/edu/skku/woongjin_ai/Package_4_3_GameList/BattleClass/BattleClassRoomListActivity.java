@@ -1,10 +1,8 @@
-package edu.skku.woongjin_ai_winter.Package_4_3_GameList.BattleClass;
+package edu.skku.woongjin_ai.Package_4_3_GameList.BattleClass;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
@@ -30,14 +28,14 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 
-import edu.skku.woongjin_ai_winter.GlobalApplication;
-import edu.skku.woongjin_ai_winter.Package_3_Main.MainActivity;
-import edu.skku.woongjin_ai_winter.Package_4_3_GameList.BattleClass.MakingRoom.MakingRoomActivity;
-import edu.skku.woongjin_ai_winter.Package_4_5_ShowFriend.ShowFriendActivity;
-import edu.skku.woongjin_ai_winter.Package_4_5_ShowFriend.ShowFriendListAdapter;
-import edu.skku.woongjin_ai_winter.Package_4_6_Chat.ChatReadyActivity;
-import edu.skku.woongjin_ai_winter.R;
-import edu.skku.woongjin_ai_winter.UserInfo;
+import edu.skku.woongjin_ai.GlobalApplication;
+import edu.skku.woongjin_ai.Package_3_Main.MainActivity;
+import edu.skku.woongjin_ai.Package_4_3_GameList.BattleClass.MakingRoom.MakingRoomActivity;
+import edu.skku.woongjin_ai.Package_4_5_ShowFriend.ShowFriendActivity;
+import edu.skku.woongjin_ai.Package_4_5_ShowFriend.ShowFriendListAdapter;
+import edu.skku.woongjin_ai.Package_4_6_Chat.ChatReadyActivity;
+import edu.skku.woongjin_ai.R;
+import edu.skku.woongjin_ai.UserInfo;
 
 public class BattleClassRoomListActivity extends AppCompatActivity
         implements BattleClassRoomListAdapter.OnNoteListener {

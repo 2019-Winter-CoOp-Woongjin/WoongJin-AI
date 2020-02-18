@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_2_MainQuizType;
+package edu.skku.woongjin_ai.Package_4_2_MainQuizType;
 
 import android.content.Context;
 import android.net.Uri;
@@ -21,18 +21,18 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import edu.skku.woongjin_ai_winter.Package_4_1_NationBook.Select_Book.ReadScript.SelectType.QuizType.ChoiceTypeActivity;
-import edu.skku.woongjin_ai_winter.Package_4_1_NationBook.Select_Book.ReadScript.SelectType.QuizType.OXTypeActivity;
-import edu.skku.woongjin_ai_winter.Package_4_1_NationBook.Select_Book.ReadScript.SelectType.QuizType.ShortwordTypeActivity;
-import edu.skku.woongjin_ai_winter.Package_4_3_GameList.MakeBombType.MakeBombChoiceActivity;
-import edu.skku.woongjin_ai_winter.Package_4_3_GameList.MakeBombType.MakeBombOXActivity;
-import edu.skku.woongjin_ai_winter.Package_4_3_GameList.MakeBombType.MakeBombShortwordActivity;
-import edu.skku.woongjin_ai_winter.Package_4_3_GameList.SolveBombType.SolveBombChoiceActivity;
-import edu.skku.woongjin_ai_winter.Package_4_3_GameList.SolveBombType.SolveBombOXActivity;
-import edu.skku.woongjin_ai_winter.Package_4_3_GameList.SolveBombType.SolveBombShortwordActivity;
-import edu.skku.woongjin_ai_winter.Package_4_4_MyPage.MyQuiz.MyQuizActivity;
-import edu.skku.woongjin_ai_winter.Package_4_4_MyPage.LikeQuiz.LikeQuizActivity;
-import edu.skku.woongjin_ai_winter.R;
+import edu.skku.woongjin_ai.Package_4_1_NationBook.Select_Book.ReadScript.SelectType.QuizType.ChoiceTypeActivity;
+import edu.skku.woongjin_ai.Package_4_1_NationBook.Select_Book.ReadScript.SelectType.QuizType.OXTypeActivity;
+import edu.skku.woongjin_ai.Package_4_1_NationBook.Select_Book.ReadScript.SelectType.QuizType.ShortwordTypeActivity;
+import edu.skku.woongjin_ai.Package_4_3_GameList.MakeBombType.MakeBombChoiceActivity;
+import edu.skku.woongjin_ai.Package_4_3_GameList.MakeBombType.MakeBombOXActivity;
+import edu.skku.woongjin_ai.Package_4_3_GameList.MakeBombType.MakeBombShortwordActivity;
+import edu.skku.woongjin_ai.Package_4_3_GameList.SolveBombType.SolveBombChoiceActivity;
+import edu.skku.woongjin_ai.Package_4_3_GameList.SolveBombType.SolveBombOXActivity;
+import edu.skku.woongjin_ai.Package_4_3_GameList.SolveBombType.SolveBombShortwordActivity;
+import edu.skku.woongjin_ai.Package_4_4_MyPage.MyQuiz.MyQuizActivity;
+import edu.skku.woongjin_ai.Package_4_4_MyPage.LikeQuiz.LikeQuizActivity;
+import edu.skku.woongjin_ai.R;
 
 /*
 from OXTypeActivity, SelectTypeActivity, ShortwordActivity, ShowFriendQuizActivity

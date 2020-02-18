@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_4_MyPage.MyCoinRecord;
+package edu.skku.woongjin_ai.Package_4_4_MyPage.MyCoinRecord;
 
 public class CoinRecordListItem {
     private String howmany;

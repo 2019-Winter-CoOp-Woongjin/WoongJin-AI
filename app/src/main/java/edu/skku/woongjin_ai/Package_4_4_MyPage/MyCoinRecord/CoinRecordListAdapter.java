@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_4_MyPage.MyCoinRecord;
+package edu.skku.woongjin_ai.Package_4_4_MyPage.MyCoinRecord;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-import edu.skku.woongjin_ai_winter.R;
+import edu.skku.woongjin_ai.R;
 
 public class CoinRecordListAdapter extends BaseAdapter {
 

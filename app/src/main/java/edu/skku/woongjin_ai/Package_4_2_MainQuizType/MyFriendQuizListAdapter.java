@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_2_MainQuizType;
+package edu.skku.woongjin_ai.Package_4_2_MainQuizType;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -18,7 +18,7 @@ import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
-import edu.skku.woongjin_ai_winter.R;
+import edu.skku.woongjin_ai.R;
 
 /*
 in ShowFriendQuizActivity

@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_3_GameList.BattleClass;
+package edu.skku.woongjin_ai.Package_4_3_GameList.BattleClass;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -29,10 +29,10 @@ import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 
-import edu.skku.woongjin_ai_winter.GlobalApplication;
-import edu.skku.woongjin_ai_winter.Package_3_Main.MainActivity;
-import edu.skku.woongjin_ai_winter.Package_4_3_GameList.BattleClass.Game.ProblemSetting.GamePage;
-import edu.skku.woongjin_ai_winter.R;
+import edu.skku.woongjin_ai.GlobalApplication;
+import edu.skku.woongjin_ai.Package_3_Main.MainActivity;
+import edu.skku.woongjin_ai.Package_4_3_GameList.BattleClass.Game.ProblemSetting.GamePage;
+import edu.skku.woongjin_ai.R;
 
 public class MainPage extends AppCompatActivity {
 

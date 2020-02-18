@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_3_GameList;
+package edu.skku.woongjin_ai.Package_4_3_GameList;
 
 import android.content.Context;
 import android.net.Uri;
@@ -12,7 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import edu.skku.woongjin_ai_winter.R;
+import edu.skku.woongjin_ai.R;
 
 
 //GameListActivity에서 씀

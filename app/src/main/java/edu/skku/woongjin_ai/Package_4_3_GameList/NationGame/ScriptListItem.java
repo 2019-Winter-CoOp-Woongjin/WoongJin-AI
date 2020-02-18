@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_3_GameList.NationGame;
+package edu.skku.woongjin_ai.Package_4_3_GameList.NationGame;
 
 public class ScriptListItem {
     private String title;

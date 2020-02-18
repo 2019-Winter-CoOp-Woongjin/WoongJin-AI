@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_3_GameList;
+package edu.skku.woongjin_ai.Package_4_3_GameList;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -25,15 +25,14 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 
-import edu.skku.woongjin_ai_winter.DrawerDialog;
-import edu.skku.woongjin_ai_winter.GlobalApplication;
-import edu.skku.woongjin_ai_winter.Package_3_Main.MainActivity;
-import edu.skku.woongjin_ai_winter.Package_4_3_GameList.BattleClass.BattleClassRoomListActivity;
-import edu.skku.woongjin_ai_winter.Package_4_5_ShowFriend.ShowFriendActivity;
-import edu.skku.woongjin_ai_winter.Package_4_5_ShowFriend.ShowFriendListAdapter;
-import edu.skku.woongjin_ai_winter.Package_4_6_Chat.ChatReadyActivity;
-import edu.skku.woongjin_ai_winter.R;
-import edu.skku.woongjin_ai_winter.UserInfo;
+import edu.skku.woongjin_ai.GlobalApplication;
+import edu.skku.woongjin_ai.Package_3_Main.MainActivity;
+import edu.skku.woongjin_ai.Package_4_3_GameList.BattleClass.BattleClassRoomListActivity;
+import edu.skku.woongjin_ai.Package_4_5_ShowFriend.ShowFriendActivity;
+import edu.skku.woongjin_ai.Package_4_5_ShowFriend.ShowFriendListAdapter;
+import edu.skku.woongjin_ai.Package_4_6_Chat.ChatReadyActivity;
+import edu.skku.woongjin_ai.R;
+import edu.skku.woongjin_ai.UserInfo;
 
 public class GameSelectActivity extends AppCompatActivity implements Fragment_game_help.OnFragmentInteractionListener{
 

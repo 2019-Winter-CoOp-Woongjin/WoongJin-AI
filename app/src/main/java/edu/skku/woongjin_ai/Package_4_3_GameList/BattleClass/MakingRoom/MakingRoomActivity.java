@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_3_GameList.BattleClass.MakingRoom;
+package edu.skku.woongjin_ai.Package_4_3_GameList.BattleClass.MakingRoom;
 
 
 import android.content.Intent;
@@ -24,10 +24,10 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 import java.util.Random;
 
-import edu.skku.woongjin_ai_winter.GlobalApplication;
-import edu.skku.woongjin_ai_winter.Package_4_3_GameList.BattleClass.GamePlayer;
-import edu.skku.woongjin_ai_winter.Package_4_3_GameList.BattleClass.MainPage;
-import edu.skku.woongjin_ai_winter.R;
+import edu.skku.woongjin_ai.GlobalApplication;
+import edu.skku.woongjin_ai.Package_4_3_GameList.BattleClass.GamePlayer;
+import edu.skku.woongjin_ai.Package_4_3_GameList.BattleClass.MainPage;
+import edu.skku.woongjin_ai.R;
 
 
 public class MakingRoomActivity extends AppCompatActivity implements MakingRoomAdapter.OnNoteListener {

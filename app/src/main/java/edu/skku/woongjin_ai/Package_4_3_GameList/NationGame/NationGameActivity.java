@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_3_GameList.NationGame;
+package edu.skku.woongjin_ai.Package_4_3_GameList.NationGame;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -30,12 +30,12 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-import edu.skku.woongjin_ai_winter.Package_4_3_GameList.FirebasePost_list;
-import edu.skku.woongjin_ai_winter.Package_3_Main.MainActivity;
-import edu.skku.woongjin_ai_winter.Package_4_5_ShowFriend.ShowFriendListAdapter;
-import edu.skku.woongjin_ai_winter.Package_4_5_ShowFriend.ShowFriendListItem;
-import edu.skku.woongjin_ai_winter.R;
-import edu.skku.woongjin_ai_winter.UserInfo;
+import edu.skku.woongjin_ai.Package_4_3_GameList.FirebasePost_list;
+import edu.skku.woongjin_ai.Package_3_Main.MainActivity;
+import edu.skku.woongjin_ai.Package_4_5_ShowFriend.ShowFriendListAdapter;
+import edu.skku.woongjin_ai.Package_4_5_ShowFriend.ShowFriendListItem;
+import edu.skku.woongjin_ai.R;
+import edu.skku.woongjin_ai.UserInfo;
 
 public class NationGameActivity extends AppCompatActivity {
     private DatabaseReference mPostReference, sPostReference, gPostReference;
@@ -43,7 +43,7 @@ public class NationGameActivity extends AppCompatActivity {
     ArrayList<ShowFriendListItem> data;
     ArrayList<String> scriptArrayList;
     ShowFriendListAdapter arrayAdapter;
-    edu.skku.woongjin_ai_winter.Package_4_3_GameList.NationGame.ScriptListAdapter ScriptListAdapter;
+    edu.skku.woongjin_ai.Package_4_3_GameList.NationGame.ScriptListAdapter ScriptListAdapter;
 
     String id_key, nickname_key;
     String friend_nickname, script_name;

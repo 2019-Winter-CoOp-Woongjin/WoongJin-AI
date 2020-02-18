@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_3_GameList.BattleClass.Game.ProblemSolving;
+package edu.skku.woongjin_ai.Package_4_3_GameList.BattleClass.Game.ProblemSolving;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -15,9 +15,9 @@ import android.widget.Toast;
 
 import android.support.annotation.NonNull;
 
-import edu.skku.woongjin_ai_winter.GlobalApplication;
-import edu.skku.woongjin_ai_winter.Package_4_3_GameList.BattleClass.Game.Problem;
-import edu.skku.woongjin_ai_winter.R;
+import edu.skku.woongjin_ai.GlobalApplication;
+import edu.skku.woongjin_ai.Package_4_3_GameList.BattleClass.Game.Problem;
+import edu.skku.woongjin_ai.R;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;

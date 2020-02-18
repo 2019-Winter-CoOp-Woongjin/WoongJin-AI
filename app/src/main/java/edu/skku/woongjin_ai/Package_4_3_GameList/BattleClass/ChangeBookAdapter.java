@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_3_GameList.BattleClass;
+package edu.skku.woongjin_ai.Package_4_3_GameList.BattleClass;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -12,7 +12,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 
-import edu.skku.woongjin_ai_winter.R;
+import edu.skku.woongjin_ai.R;
 
 public class ChangeBookAdapter extends RecyclerView.Adapter<ChangeBookAdapter.CustomViewHolder>{
 

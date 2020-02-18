@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_3_GameList.BattleClass;
+package edu.skku.woongjin_ai.Package_4_3_GameList.BattleClass;
 
 
 import android.content.Context;
@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-import edu.skku.woongjin_ai_winter.R;
+import edu.skku.woongjin_ai.R;
 
 public class BattleClassRoomListAdapter extends RecyclerView.Adapter<BattleClassRoomListAdapter.CustomViewHolder> {
 

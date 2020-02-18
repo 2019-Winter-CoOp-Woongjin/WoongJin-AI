@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_2_MainQuizType.QuizType;
+package edu.skku.woongjin_ai.Package_4_2_MainQuizType.QuizType;
 
 import android.content.Context;
 import android.content.Intent;
@@ -26,9 +26,9 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import edu.skku.woongjin_ai_winter.Package_4_2_MainQuizType.ShowFriendQuizActivity;
-import edu.skku.woongjin_ai_winter.R;
-import edu.skku.woongjin_ai_winter.Package_4_2_MainQuizType.ShowVideoHintActivity;
+import edu.skku.woongjin_ai.Package_4_2_MainQuizType.ShowFriendQuizActivity;
+import edu.skku.woongjin_ai.R;
+import edu.skku.woongjin_ai.Package_4_2_MainQuizType.ShowVideoHintActivity;
 
 /*
 from ShowFriendQuizActivity

@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_4_MyPage.MyRecord;
+package edu.skku.woongjin_ai.Package_4_4_MyPage.MyRecord;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -11,7 +11,7 @@ import com.prolificinteractive.materialcalendarview.DayViewFacade;
 import java.util.Collection;
 import java.util.HashSet;
 
-import edu.skku.woongjin_ai_winter.R;
+import edu.skku.woongjin_ai.R;
 
 class EventDecorator implements DayViewDecorator {
 

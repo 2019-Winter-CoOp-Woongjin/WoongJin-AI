@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_3_GameList.MakeBombType;
+package edu.skku.woongjin_ai.Package_4_3_GameList.MakeBombType;
 
 import java.util.HashMap;
 import java.util.Map;

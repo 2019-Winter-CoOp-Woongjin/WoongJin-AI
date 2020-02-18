@@ -1,6 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_3_GameList.BattleClass.Game.ProblemSetting;
-
-import android.util.Log;
+package edu.skku.woongjin_ai.Package_4_3_GameList.BattleClass.Game.ProblemSetting;
 
 import org.json.JSONException;
 import org.json.JSONObject;

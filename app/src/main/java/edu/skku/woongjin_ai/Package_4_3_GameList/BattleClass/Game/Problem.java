@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_3_GameList.BattleClass.Game;
+package edu.skku.woongjin_ai.Package_4_3_GameList.BattleClass.Game;
 
 public class Problem {
     public String problem;

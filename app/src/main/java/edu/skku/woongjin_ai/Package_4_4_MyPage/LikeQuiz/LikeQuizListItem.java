@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_4_MyPage.LikeQuiz;
+package edu.skku.woongjin_ai.Package_4_4_MyPage.LikeQuiz;
 
 import android.graphics.drawable.Drawable;
 

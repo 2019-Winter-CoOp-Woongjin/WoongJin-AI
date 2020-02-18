@@ -6,7 +6,6 @@ import android.graphics.PorterDuff;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.renderscript.Sampler;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -32,7 +31,6 @@ import com.google.firebase.database.ValueEventListener;
 
 import org.json.JSONException;
 
-import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
@@ -41,8 +39,6 @@ import java.util.Map;
 import edu.skku.woongjin_ai.Package_3_Main.MainActivity;
 import edu.skku.woongjin_ai.Package_4_1_NationBook.Select_Book.ReadScript.SelectType.SelectTypeActivity;
 import edu.skku.woongjin_ai.Package_4_2_MainQuizType.ShowScriptFragment;
-import edu.skku.woongjin_ai.Package_4_3_GameList.BattleClass.Game.ProblemSetting.PopupMulti;
-import edu.skku.woongjin_ai.Package_4_3_GameList.BattleClass.Game.ProblemSetting.PopupSmall;
 import edu.skku.woongjin_ai.Package_4_3_GameList.BattleClass.Game.ProblemSetting.ServerConnection;
 import edu.skku.woongjin_ai.R;
 import edu.skku.woongjin_ai.WeekInfo;

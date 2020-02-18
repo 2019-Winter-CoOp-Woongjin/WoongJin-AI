@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_2_MainQuizType.Correct_Wrong_Quiz;
+package edu.skku.woongjin_ai.Package_4_2_MainQuizType.Correct_Wrong_Quiz;
 
 import android.content.Context;
 import android.net.Uri;
@@ -25,9 +25,9 @@ import com.google.firebase.database.ValueEventListener;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import edu.skku.woongjin_ai_winter.Package_4_2_MainQuizType.ShowFriendQuizActivity;
-import edu.skku.woongjin_ai_winter.R;
-import edu.skku.woongjin_ai_winter.WeekInfo;
+import edu.skku.woongjin_ai.Package_4_2_MainQuizType.ShowFriendQuizActivity;
+import edu.skku.woongjin_ai.R;
+import edu.skku.woongjin_ai.WeekInfo;
 
 /*
 from 4-2 ShowFriendQuizActivity

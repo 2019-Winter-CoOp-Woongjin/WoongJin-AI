@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_5_ShowFriend;
+package edu.skku.woongjin_ai.Package_4_5_ShowFriend;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -27,10 +27,10 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
 
-import edu.skku.woongjin_ai_winter.GlobalApplication;
-import edu.skku.woongjin_ai_winter.Package_3_Main.MainActivity;
-import edu.skku.woongjin_ai_winter.R;
-import edu.skku.woongjin_ai_winter.UserInfo;
+import edu.skku.woongjin_ai.GlobalApplication;
+import edu.skku.woongjin_ai.Package_3_Main.MainActivity;
+import edu.skku.woongjin_ai.R;
+import edu.skku.woongjin_ai.UserInfo;
 
 import static com.google.android.gms.common.internal.safeparcel.SafeParcelable.NULL;
 // 친구 삭제, 친구 신청시 수락후 추가 미구현

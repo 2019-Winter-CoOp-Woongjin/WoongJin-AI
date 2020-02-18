@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_3_GameList;
+package edu.skku.woongjin_ai.Package_4_3_GameList;
 
 import java.util.HashMap;
 import java.util.Map;

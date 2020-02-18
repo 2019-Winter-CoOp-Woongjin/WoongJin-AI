@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_3_GameList.BattleClass.MakingRoom;
+package edu.skku.woongjin_ai.Package_4_3_GameList.BattleClass.MakingRoom;
 
 
 import android.content.Context;
@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-import edu.skku.woongjin_ai_winter.R;
+import edu.skku.woongjin_ai.R;
 
 public class MakingRoomAdapter extends RecyclerView.Adapter<MakingRoomAdapter.CustomViewHolder> {
 

@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_4_MyPage;
+package edu.skku.woongjin_ai.Package_4_4_MyPage;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -39,16 +39,16 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
-import edu.skku.woongjin_ai_winter.Package_4_4_MyPage.MyQuiz.MyQuizActivity;
-import edu.skku.woongjin_ai_winter.Package_4_4_MyPage.MyRecord.MyRecordActivity;
-import edu.skku.woongjin_ai_winter.Package_4_4_MyPage.MyCoinRecord.MyCoinRecordActivity;
-import edu.skku.woongjin_ai_winter.Package_4_4_MyPage.LikeQuiz.LikeQuizActivity;
-import edu.skku.woongjin_ai_winter.Package_1_Login.LoginActivity;
-import edu.skku.woongjin_ai_winter.Package_3_Main.MainActivity;
-import edu.skku.woongjin_ai_winter.R;
-import edu.skku.woongjin_ai_winter.Package_4_5_ShowFriend.ShowFriendActivity;
-import edu.skku.woongjin_ai_winter.UserInfo;
-import edu.skku.woongjin_ai_winter.WeekInfo;
+import edu.skku.woongjin_ai.Package_4_4_MyPage.MyQuiz.MyQuizActivity;
+import edu.skku.woongjin_ai.Package_4_4_MyPage.MyRecord.MyRecordActivity;
+import edu.skku.woongjin_ai.Package_4_4_MyPage.MyCoinRecord.MyCoinRecordActivity;
+import edu.skku.woongjin_ai.Package_4_4_MyPage.LikeQuiz.LikeQuizActivity;
+import edu.skku.woongjin_ai.Package_1_Login.LoginActivity;
+import edu.skku.woongjin_ai.Package_3_Main.MainActivity;
+import edu.skku.woongjin_ai.R;
+import edu.skku.woongjin_ai.Package_4_5_ShowFriend.ShowFriendActivity;
+import edu.skku.woongjin_ai.UserInfo;
+import edu.skku.woongjin_ai.WeekInfo;
 
 public class MyPageActivity extends AppCompatActivity implements ShowHoonjangCriteriaFragment.OnFragmentInteractionListener {
 

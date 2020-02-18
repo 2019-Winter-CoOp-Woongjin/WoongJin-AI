@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_4_MyPage.MyQuiz;
+package edu.skku.woongjin_ai.Package_4_4_MyPage.MyQuiz;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -23,18 +23,18 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 
-import edu.skku.woongjin_ai_winter.Package_4_2_MainQuizType.MyFriendQuizListAdapter;
-import edu.skku.woongjin_ai_winter.Package_3_Main.MainActivity;
-import edu.skku.woongjin_ai_winter.Package_4_4_MyPage.Fragment.SeeChoiceQuizFragment;
-import edu.skku.woongjin_ai_winter.Package_4_4_MyPage.Fragment.SeeOXQuizFragment;
-import edu.skku.woongjin_ai_winter.Package_4_4_MyPage.Fragment.SeeShortQuizFragment;
-import edu.skku.woongjin_ai_winter.Package_4_4_MyPage.Fragment.ShowWhoLikedFragment;
-import edu.skku.woongjin_ai_winter.Package_4_5_ShowFriend.ShowFriendListAdapter;
-import edu.skku.woongjin_ai_winter.Package_4_1_NationBook.Select_Book.ReadScript.SelectType.QuizType.QuizChoiceTypeInfo;
-import edu.skku.woongjin_ai_winter.Package_4_1_NationBook.Select_Book.ReadScript.SelectType.QuizType.QuizOXShortwordTypeInfo;
-import edu.skku.woongjin_ai_winter.R;
-import edu.skku.woongjin_ai_winter.Package_4_2_MainQuizType.ShowScriptFragment;
-import edu.skku.woongjin_ai_winter.UserInfo;
+import edu.skku.woongjin_ai.Package_4_2_MainQuizType.MyFriendQuizListAdapter;
+import edu.skku.woongjin_ai.Package_3_Main.MainActivity;
+import edu.skku.woongjin_ai.Package_4_4_MyPage.Fragment.SeeChoiceQuizFragment;
+import edu.skku.woongjin_ai.Package_4_4_MyPage.Fragment.SeeOXQuizFragment;
+import edu.skku.woongjin_ai.Package_4_4_MyPage.Fragment.SeeShortQuizFragment;
+import edu.skku.woongjin_ai.Package_4_4_MyPage.Fragment.ShowWhoLikedFragment;
+import edu.skku.woongjin_ai.Package_4_5_ShowFriend.ShowFriendListAdapter;
+import edu.skku.woongjin_ai.Package_4_1_NationBook.Select_Book.ReadScript.SelectType.QuizType.QuizChoiceTypeInfo;
+import edu.skku.woongjin_ai.Package_4_1_NationBook.Select_Book.ReadScript.SelectType.QuizType.QuizOXShortwordTypeInfo;
+import edu.skku.woongjin_ai.R;
+import edu.skku.woongjin_ai.Package_4_2_MainQuizType.ShowScriptFragment;
+import edu.skku.woongjin_ai.UserInfo;
 
 import static android.media.CamcorderProfile.get;
 

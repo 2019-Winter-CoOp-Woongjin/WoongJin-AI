@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_3_GameList.BattleClass.GameOver;
+package edu.skku.woongjin_ai.Package_4_3_GameList.BattleClass.GameOver;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -8,7 +8,6 @@ import android.os.Message;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -19,14 +18,14 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import edu.skku.woongjin_ai_winter.GlobalApplication;
-import edu.skku.woongjin_ai_winter.Package_4_3_GameList.BattleClass.Game.ProblemSetting.GamePage;
-import edu.skku.woongjin_ai_winter.Package_4_3_GameList.BattleClass.Game.ProblemSolving.GamePage_solve;
-import edu.skku.woongjin_ai_winter.Package_4_3_GameList.BattleClass.GamePlayer;
-import edu.skku.woongjin_ai_winter.Package_4_3_GameList.BattleClass.MainPage;
-import edu.skku.woongjin_ai_winter.R;
+import edu.skku.woongjin_ai.GlobalApplication;
+import edu.skku.woongjin_ai.Package_4_3_GameList.BattleClass.Game.ProblemSetting.GamePage;
+import edu.skku.woongjin_ai.Package_4_3_GameList.BattleClass.Game.ProblemSolving.GamePage_solve;
+import edu.skku.woongjin_ai.Package_4_3_GameList.BattleClass.GamePlayer;
+import edu.skku.woongjin_ai.Package_4_3_GameList.BattleClass.MainPage;
+import edu.skku.woongjin_ai.R;
 
-import static edu.skku.woongjin_ai_winter.R.drawable.heart_empty;
+import static edu.skku.woongjin_ai.R.drawable.heart_empty;
 
 public class Result extends AppCompatActivity {
 
