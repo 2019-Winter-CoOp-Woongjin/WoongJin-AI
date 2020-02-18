@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_1_NationBook.Select_Book.ReadScript.SelectType.QuizType;
+package edu.skku.woongjin_ai.Package_4_1_NationBook.Select_Book.ReadScript.SelectType.QuizType;
 
 import android.content.Context;
 import android.net.Uri;
@@ -14,7 +14,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 
-import edu.skku.woongjin_ai_winter.R;
+import edu.skku.woongjin_ai.R;
 
 /*
 from OXTypeActivity, ChoiceTypeActivity, ShortwordTypeActivity
