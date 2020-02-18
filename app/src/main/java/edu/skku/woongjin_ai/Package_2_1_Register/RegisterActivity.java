@@ -24,9 +24,9 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-import edu.skku.woongjin_ai_winter.Package_1_Login.LoginActivity;
-import edu.skku.woongjin_ai_winter.R;
-import edu.skku.woongjin_ai_winter.UserInfo;
+import edu.skku.woongjin_ai.Package_1_Login.LoginActivity;
+import edu.skku.woongjin_ai.R;
+import edu.skku.woongjin_ai.UserInfo;
 
 /*
 from LoginActivity
