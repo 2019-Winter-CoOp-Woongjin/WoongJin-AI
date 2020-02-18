@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_1_NationBook.Select_Book;
+package edu.skku.woongjin_ai.Package_4_1_NationBook.Select_Book;
 
 /*
 in SelectBookListAdapter
