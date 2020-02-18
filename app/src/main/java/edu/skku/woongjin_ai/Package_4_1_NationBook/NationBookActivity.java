@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_1_NationBook;
+package edu.skku.woongjin_ai.Package_4_1_NationBook;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -23,14 +23,14 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 
-import edu.skku.woongjin_ai_winter.DrawerDialog;
-import edu.skku.woongjin_ai_winter.Package_3_Main.MainActivity;
-import edu.skku.woongjin_ai_winter.Package_4_1_NationBook.Select_Book.SelectBookActivity;
-import edu.skku.woongjin_ai_winter.Package_4_5_ShowFriend.ShowFriendActivity;
-import edu.skku.woongjin_ai_winter.Package_4_5_ShowFriend.ShowFriendListAdapter;
-import edu.skku.woongjin_ai_winter.Package_4_6_Chat.ChatReadyActivity;
-import edu.skku.woongjin_ai_winter.R;
-import edu.skku.woongjin_ai_winter.UserInfo;
+import edu.skku.woongjin_ai.DrawerDialog;
+import edu.skku.woongjin_ai.Package_3_Main.MainActivity;
+import edu.skku.woongjin_ai.Package_4_1_NationBook.Select_Book.SelectBookActivity;
+import edu.skku.woongjin_ai.Package_4_5_ShowFriend.ShowFriendActivity;
+import edu.skku.woongjin_ai.Package_4_5_ShowFriend.ShowFriendListAdapter;
+import edu.skku.woongjin_ai.Package_4_6_Chat.ChatReadyActivity;
+import edu.skku.woongjin_ai.R;
+import edu.skku.woongjin_ai.UserInfo;
 
 /*
 from MainActivity
