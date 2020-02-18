@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_2_1_Register;
+package edu.skku.woongjin_ai.Package_2_1_Register;
 
 import android.content.Intent;
 import android.os.Bundle;
