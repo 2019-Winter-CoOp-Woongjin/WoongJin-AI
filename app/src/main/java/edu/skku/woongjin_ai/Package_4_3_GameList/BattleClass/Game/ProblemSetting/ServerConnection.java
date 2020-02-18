@@ -12,7 +12,7 @@ import java.net.URL;
 
 public class ServerConnection {
 
-    private String url = "http://34.84.249.147:8080/api/analyze";
+    private String url = "http://34.84.249.147:80/api/analyze";
 
     public String urlConnection(String json) throws IOException {
         BufferedReader bufferedReader = null;
