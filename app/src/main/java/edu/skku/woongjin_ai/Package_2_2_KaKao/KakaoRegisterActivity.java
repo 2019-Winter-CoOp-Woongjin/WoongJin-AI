@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_2_2_KaKao;
+package edu.skku.woongjin_ai.Package_2_2_KaKao;
 
 import android.content.Intent;
 import android.os.Bundle;
