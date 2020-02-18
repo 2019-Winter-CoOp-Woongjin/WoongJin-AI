@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_1_Login;
+package edu.skku.woongjin_ai.Package_1_Login;
 
 import android.content.Context;
 import android.content.Intent;
