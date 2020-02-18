@@ -16,4 +16,20 @@
         <item name="colorControlActivated">#ffffff</item>
     </style>
 
+    <style name="MenuStyle" parent="Theme.AppCompat.Light">
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <!-- makingRoom용 작그만한 창용 -->
+    <style name="popupTheme" parent="Theme.AppCompat.DayNight.Dialog">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- 타이틀바 제거 -->
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
 </resources>
