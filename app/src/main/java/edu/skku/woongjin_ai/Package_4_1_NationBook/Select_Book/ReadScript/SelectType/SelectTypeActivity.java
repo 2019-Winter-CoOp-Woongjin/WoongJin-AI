@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_1_NationBook.Select_Book.ReadScript.SelectType;
+package edu.skku.woongjin_ai.Package_4_1_NationBook.Select_Book.ReadScript.SelectType;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -23,11 +23,11 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-import edu.skku.woongjin_ai_winter.Package_3_Main.MainActivity;
-import edu.skku.woongjin_ai_winter.Package_4_1_NationBook.Select_Book.ReadScript.SelectType.QuizType.ChoiceTypeActivity;
-import edu.skku.woongjin_ai_winter.Package_4_1_NationBook.Select_Book.ReadScript.SelectType.QuizType.OXTypeActivity;
-import edu.skku.woongjin_ai_winter.Package_4_1_NationBook.Select_Book.ReadScript.SelectType.QuizType.ShortwordTypeActivity;
-import edu.skku.woongjin_ai_winter.R;
+import edu.skku.woongjin_ai.Package_3_Main.MainActivity;
+import edu.skku.woongjin_ai.Package_4_1_NationBook.Select_Book.ReadScript.SelectType.QuizType.ChoiceTypeActivity;
+import edu.skku.woongjin_ai.Package_4_1_NationBook.Select_Book.ReadScript.SelectType.QuizType.OXTypeActivity;
+import edu.skku.woongjin_ai.Package_4_1_NationBook.Select_Book.ReadScript.SelectType.QuizType.ShortwordTypeActivity;
+import edu.skku.woongjin_ai.R;
 
 public class SelectTypeActivity extends AppCompatActivity implements NewHoonjangFragment.OnFragmentInteractionListener {
 
