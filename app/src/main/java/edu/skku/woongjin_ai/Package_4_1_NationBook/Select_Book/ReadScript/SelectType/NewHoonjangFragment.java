@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_1_NationBook.Select_Book.ReadScript.SelectType;
+package edu.skku.woongjin_ai.Package_4_1_NationBook.Select_Book.ReadScript.SelectType;
 
 import android.content.Context;
 import android.net.Uri;
@@ -18,10 +18,10 @@ import android.widget.TextView;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-import edu.skku.woongjin_ai_winter.Package_3_Main.MainActivity;
-import edu.skku.woongjin_ai_winter.Package_4_2_MainQuizType.ShowFriendQuizActivity;
-import edu.skku.woongjin_ai_winter.Package_4_3_GameList.GameListActivity;
-import edu.skku.woongjin_ai_winter.R;
+import edu.skku.woongjin_ai.Package_3_Main.MainActivity;
+import edu.skku.woongjin_ai.Package_4_2_MainQuizType.ShowFriendQuizActivity;
+import edu.skku.woongjin_ai.Package_4_3_GameList.GameListActivity;
+import edu.skku.woongjin_ai.R;
 
 
 //관련있는거
