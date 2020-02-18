@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:gravity="center"
+        android:text="도움말"
+        android:textSize="50sp"
+        android:textColor="#000000"
+        android:fontFamily="@font/bmjua_ttf"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/drawer_pic"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="#ffffff"
+            android:id="@+id/textView"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="50dp"
+            android:textSize="30sp"
+            android:fontFamily="@font/bmjua_ttf"
+            android:textColor="#797979"
+            android:text="페이지의 왼쪽 위에 \n해당 버튼이 존재하는 경우,\n\n\n화면을 왼쪽에서 오른쪽으로 쭈~욱 그으면\n 친구목록과 채팅함이 튀어나와요!\n\n다시 화면을 클릭하면\n스르륵 들어간답니다~"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:orientation="horizontal"
+        android:background="#ffffff">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginRight="200dp"
+            android:id="@+id/btnOK"
+            android:fontFamily="@font/bmjua_ttf"
+            android:textSize="30sp"
+            android:text="확인"
+            android:textColor="#03A9F4"
+            android:background="#B5EBEBEB"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+       android:layout_weight="10"
+        />
+</LinearLayout>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="800dp"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+    android:background="@drawable/note_background2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"/>
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:background="@color/lightbeige"
+        android:layout_height="0dp"
+        android:weightSum="5"
+        android:layout_weight="0.7" >
+
+        <EditText
+            android:id="@+id/editProblem"
+            style="@android:style/Widget.EditText"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:scrollbars="vertical"
+            android:layout_weight="4"
+            android:background="@drawable/bottom_border"
+            android:fontFamily="@font/bmjua_ttf"
+            android:hint="퀴즈 내용 입력하기"
+            android:textColor="@color/darkgray"
+            android:textColorHint="@color/darkgray"
+            android:textCursorDrawable="@drawable/cursor_color"
+            android:textSize="30dp"
+            android:theme="@android:style/Widget.EditText" />
+
+        <Button
+            android:id="@+id/showScript"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="#27699E"
+            android:fontFamily="@font/bmjua_ttf"
+            android:gravity="center"
+            android:text="지문보기"
+            android:textSize="25dp"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0.5">
+
+        <TextView
+            android:id="@+id/problemComment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:textColor="@color/darkgray"
+            android:fontFamily="@font/bmjua_ttf"
+            android:text="" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="20dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:weightSum="3" >
+
+        <EditText
+            android:id="@+id/editAns"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_margin="20dp"
+            android:hint="정답 입력하기"
+            android:textColorHint="@color/darkgray"
+            android:padding="5dp"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textCursorDrawable="@drawable/cursor_color"
+            android:background="@drawable/rounded_white_orange_border"
+            android:fontFamily="@font/bmjua_ttf"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:weightSum="6">
+
+        <ImageButton
+            android:id="@+id/cancel_prob"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00ff0000"
+            android:src="@drawable/cancel"
+            android:scaleType="centerCrop"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.25">
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/checkProb"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1.55"
+            android:src="@drawable/check1"
+            android:scaleType="centerCrop"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.25"
+            android:orientation="horizontal"/>
+
+        <ImageButton
+            android:id="@+id/create_prob"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00ff0000"
+            android:src="@drawable/finish_making"
+            android:scaleType="centerCrop"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="103dp"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/roomnum1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bmjua_ttf"
+            android:gravity="center|left"
+            android:text="방 번호"
+            android:textColor="@color/dimgray"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/roomname1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bmjua_ttf"
+            android:gravity="center|left"
+            android:text="방 이름"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/hostname1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bmjua_ttf"
+            android:gravity="center|left"
+            android:text="방장 이름"
+            android:textColor="#009688"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/bookname1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bmjua_ttf"
+            android:gravity="center|left"
+            android:text="책 제목"
+            android:textColor="#673AB7"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/personnum1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bmjua_ttf"
+            android:gravity="center|left"
+            android:text="사람 수"
+            android:textColor="#03A9F4"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tv_roomnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bmjua_ttf"
+            android:gravity="center|left"
+            android:text="방 번호"
+            android:textColor="@color/dimgray"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/tv_roomname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="방 이름"
+            android:textSize="25dp"
+            android:fontFamily="@font/bmjua_ttf"
+            android:textColor="@color/black"
+            android:gravity="center|left"
+            />
+
+        <TextView
+            android:id="@+id/tv_hostname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bmjua_ttf"
+            android:gravity="center|left"
+            android:text="방장 이름"
+            android:textColor="#009688"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/tv_bookname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bmjua_ttf"
+            android:gravity="center|left"
+            android:text="책 제목"
+            android:textColor="#673AB7"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/tv_personnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bmjua_ttf"
+            android:gravity="center|left"
+            android:text="사람 수"
+            android:textColor="#03A9F4"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+</LinearLayout>

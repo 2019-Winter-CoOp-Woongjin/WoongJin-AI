@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/board">
+
+    <TextView
+        android:id="@+id/Round"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="64dp"
+        android:text="Round"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:fontFamily="@font/bmjua_ttf"/>
+
+    <ImageView
+        android:id="@+id/Back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back1" />
+
+
+    <LinearLayout
+        android:id="@+id/timerGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@+id/player1name"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/player0name"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="120dp" >
+
+        <ImageView
+            android:id="@+id/timerImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/ic_icons_clock" />
+
+        <TextView
+            android:id="@+id/Timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Timer"
+            android:textSize="30dp"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toStartOf="@+id/player1name"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toEndOf="@+id/player0name"
+            app:layout_constraintTop_toTopOf="parent"
+            android:fontFamily="@font/bmjua_ttf"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/player0name"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="120dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:fontFamily="@font/bmjua_ttf"/>
+
+    <TextView
+        android:id="@+id/player1name"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="200dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:fontFamily="@font/bmjua_ttf"/>
+
+    <LinearLayout
+        android:id="@+id/player0live"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/timerGroup"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/player0name"
+        app:layout_constraintVertical_bias="0.02">
+
+        <ImageView
+            android:id="@+id/player0life1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/heart"
+            tools:layout_editor_absoluteX="350dp"
+            tools:layout_editor_absoluteY="206dp" />
+
+        <ImageView
+            android:id="@+id/player0life2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/heart"
+            tools:layout_editor_absoluteX="380dp"
+            tools:layout_editor_absoluteY="206dp" />
+
+        <ImageView
+            android:id="@+id/player0life3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/heart"
+            tools:layout_editor_absoluteX="410dp"
+            tools:layout_editor_absoluteY="206dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/player1live"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/timerGroup"
+        app:layout_constraintTop_toBottomOf="@+id/player1name"
+        app:layout_constraintVertical_bias="0.02">
+
+        <ImageView
+            android:id="@+id/player1life1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/heart"
+            tools:layout_editor_absoluteX="350dp"
+            tools:layout_editor_absoluteY="206dp" />
+
+        <ImageView
+            android:id="@+id/player1life2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/heart"
+            tools:layout_editor_absoluteX="380dp"
+            tools:layout_editor_absoluteY="206dp" />
+
+        <ImageView
+            android:id="@+id/player1life3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/heart"
+            tools:layout_editor_absoluteX="410dp"
+            tools:layout_editor_absoluteY="206dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="1000dp"
+        android:layout_height="300dp"
+        android:layout_weight="18"
+        android:background="@drawable/selectbook_board"
+        android:orientation="vertical"
+        android:padding="50dp"
+        android:weightSum="2.5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timerGroup">
+
+        <TextView
+            android:id="@+id/problemText"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="40dp"
+            android:text="친구에게 문제를 내보자!"
+            android:textSize="55dp"
+            android:fontFamily="@font/bmjua_ttf"/>
+
+        <LinearLayout
+            android:id="@+id/problem"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.2"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <ImageButton
+                android:id="@+id/OX"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00ff0000"
+                android:padding="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ox_quiz" />
+
+            <ImageButton
+                android:id="@+id/Multi"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00ff0000"
+                android:padding="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/select_quiz" />
+
+            <ImageButton
+                android:id="@+id/Short"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00ff0000"
+                android:padding="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/shortword_quiz" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
