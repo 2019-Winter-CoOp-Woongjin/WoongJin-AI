@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_2_2_KaKao;
+package edu.skku.woongjin_ai.Package_2_2_KaKao;
 
 import android.app.Activity;
 import android.content.Context;
@@ -9,7 +9,7 @@ import com.kakao.auth.IApplicationConfig;
 import com.kakao.auth.ISessionConfig;
 import com.kakao.auth.KakaoAdapter;
 
-import edu.skku.woongjin_ai_winter.GlobalApplication;
+import edu.skku.woongjin_ai.GlobalApplication;
 
 public class KakaoSDKAdapter extends KakaoAdapter {
     @Override
