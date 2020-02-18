@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_3_Main;
+package edu.skku.woongjin_ai.Package_3_Main;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -31,18 +31,18 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 
-import edu.skku.woongjin_ai_winter.DrawerDialog;
-import edu.skku.woongjin_ai_winter.GlobalApplication;
-import edu.skku.woongjin_ai_winter.Package_4_2_MainQuizType.MainQuizTypeFragment;
-import edu.skku.woongjin_ai_winter.Package_4_1_NationBook.Select_Book.ReadScript.SelectType.NewHoonjangFragment;
-import edu.skku.woongjin_ai_winter.Package_4_3_GameList.GameSelectActivity;
-import edu.skku.woongjin_ai_winter.Package_4_6_Chat.ChatReadyActivity;
-import edu.skku.woongjin_ai_winter.Package_4_4_MyPage.MyPageActivity;
-import edu.skku.woongjin_ai_winter.Package_4_1_NationBook.NationBookActivity;
-import edu.skku.woongjin_ai_winter.Package_4_5_ShowFriend.ShowFriendActivity;
-import edu.skku.woongjin_ai_winter.Package_4_5_ShowFriend.ShowFriendListAdapter;
-import edu.skku.woongjin_ai_winter.R;
-import edu.skku.woongjin_ai_winter.UserInfo;
+import edu.skku.woongjin_ai.DrawerDialog;
+import edu.skku.woongjin_ai.GlobalApplication;
+import edu.skku.woongjin_ai.Package_4_2_MainQuizType.MainQuizTypeFragment;
+import edu.skku.woongjin_ai.Package_4_1_NationBook.Select_Book.ReadScript.SelectType.NewHoonjangFragment;
+import edu.skku.woongjin_ai.Package_4_3_GameList.GameSelectActivity;
+import edu.skku.woongjin_ai.Package_4_6_Chat.ChatReadyActivity;
+import edu.skku.woongjin_ai.Package_4_4_MyPage.MyPageActivity;
+import edu.skku.woongjin_ai.Package_4_1_NationBook.NationBookActivity;
+import edu.skku.woongjin_ai.Package_4_5_ShowFriend.ShowFriendActivity;
+import edu.skku.woongjin_ai.Package_4_5_ShowFriend.ShowFriendListAdapter;
+import edu.skku.woongjin_ai.R;
+import edu.skku.woongjin_ai.UserInfo;
 
 /*
 from LoginActivity
