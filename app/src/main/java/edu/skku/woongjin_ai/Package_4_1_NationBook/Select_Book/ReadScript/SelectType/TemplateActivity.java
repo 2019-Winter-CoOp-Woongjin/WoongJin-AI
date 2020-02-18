@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_1_NationBook.Select_Book.ReadScript.SelectType;
+package edu.skku.woongjin_ai.Package_4_1_NationBook.Select_Book.ReadScript.SelectType;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -19,10 +19,10 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 import java.util.Random;
 
-import edu.skku.woongjin_ai_winter.Package_3_Main.MainActivity;
-import edu.skku.woongjin_ai_winter.Package_4_1_NationBook.Select_Book.ReadScript.SelectType.QuizType.QuizChoiceTypeInfo;
-import edu.skku.woongjin_ai_winter.Package_4_1_NationBook.Select_Book.ReadScript.SelectType.QuizType.QuizOXShortwordTypeInfo;
-import edu.skku.woongjin_ai_winter.R;
+import edu.skku.woongjin_ai.Package_3_Main.MainActivity;
+import edu.skku.woongjin_ai.Package_4_1_NationBook.Select_Book.ReadScript.SelectType.QuizType.QuizChoiceTypeInfo;
+import edu.skku.woongjin_ai.Package_4_1_NationBook.Select_Book.ReadScript.SelectType.QuizType.QuizOXShortwordTypeInfo;
+import edu.skku.woongjin_ai.R;
 
 /*
 from SelectTypeActivity
