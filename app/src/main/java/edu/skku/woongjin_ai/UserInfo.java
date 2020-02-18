@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai;
+package edu.skku.woongjin_ai_winter;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -17,12 +17,13 @@ public class UserInfo {
     public String grade;
     public String coin;
     public String profile;
+    public Boolean onoffline;
 
     public UserInfo(){
 
     }
 
-    public UserInfo(String id, String pw, String name, String nickname, String school, String gender, String grade, String coin, String profile) {
+    public UserInfo(String id, String pw, String name, String nickname, String school, String gender, String grade, String coin, String profile, Boolean value) {
         this.id = id;
         this.name = name;
         this.pw = pw;
@@ -33,6 +34,7 @@ public class UserInfo {
         this.grade = grade;
         this.coin = coin;
         this.profile = profile;
+        this.onoffline = value;
     }
 
     public Map<String, Object> toMap() {
@@ -47,6 +49,7 @@ public class UserInfo {
         result.put("grade", grade);
         result.put("coin", coin);
         result.put("profile", profile);
+        result.put("onoffline", onoffline);
         return result;
     }
 }
