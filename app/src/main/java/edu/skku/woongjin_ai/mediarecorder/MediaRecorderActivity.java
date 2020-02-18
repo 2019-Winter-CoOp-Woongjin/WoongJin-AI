@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai.mediarecorder;
+package edu.skku.woongjin_ai_winter.mediarecorder;
 
 import android.Manifest;
 import android.app.Activity;
@@ -37,9 +37,9 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
-import edu.skku.woongjin_ai.R;
-import edu.skku.woongjin_ai.UserInfo;
-import edu.skku.woongjin_ai.common.media.CameraHelp;
+import edu.skku.woongjin_ai_winter.R;
+import edu.skku.woongjin_ai_winter.UserInfo;
+import edu.skku.woongjin_ai_winter.common.media.CameraHelp;
 
 public class MediaRecorderActivity extends Activity implements ActivityCompat.OnRequestPermissionsResultCallback {
 

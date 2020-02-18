@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai.common.media;
+package edu.skku.woongjin_ai_winter.common.media;
 
 
 import android.annotation.TargetApi;
