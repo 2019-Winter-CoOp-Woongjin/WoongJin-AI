@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_1_NationBook.Select_Book.ReadScript.SelectType.QuizType;
+package edu.skku.woongjin_ai.Package_4_1_NationBook.Select_Book.ReadScript.SelectType.QuizType;
 
 import java.util.HashMap;
 import java.util.Map;
