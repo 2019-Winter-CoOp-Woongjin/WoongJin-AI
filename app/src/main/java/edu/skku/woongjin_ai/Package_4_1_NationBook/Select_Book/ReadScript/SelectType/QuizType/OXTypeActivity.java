@@ -1,4 +1,4 @@
-package edu.skku.woongjin_ai_winter.Package_4_1_NationBook.Select_Book.ReadScript.SelectType.QuizType;
+package edu.skku.woongjin_ai.Package_4_1_NationBook.Select_Book.ReadScript.SelectType.QuizType;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -36,15 +36,15 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
-import edu.skku.woongjin_ai_winter.Package_3_Main.MainActivity;
-import edu.skku.woongjin_ai_winter.Package_4_1_NationBook.Select_Book.ReadScript.SelectType.SelectTypeActivity;
-import edu.skku.woongjin_ai_winter.Package_4_2_MainQuizType.ShowScriptFragment;
-import edu.skku.woongjin_ai_winter.Package_4_3_GameList.BattleClass.Game.ProblemSetting.PopupOX;
-import edu.skku.woongjin_ai_winter.Package_4_3_GameList.BattleClass.Game.ProblemSetting.PopupSmall;
-import edu.skku.woongjin_ai_winter.Package_4_3_GameList.BattleClass.Game.ProblemSetting.ServerConnection;
-import edu.skku.woongjin_ai_winter.R;
-import edu.skku.woongjin_ai_winter.WeekInfo;
-import edu.skku.woongjin_ai_winter.mediarecorder.MediaRecorderActivity;
+import edu.skku.woongjin_ai.Package_3_Main.MainActivity;
+import edu.skku.woongjin_ai.Package_4_1_NationBook.Select_Book.ReadScript.SelectType.SelectTypeActivity;
+import edu.skku.woongjin_ai.Package_4_2_MainQuizType.ShowScriptFragment;
+import edu.skku.woongjin_a.Package_4_3_GameList.BattleClass.Game.ProblemSetting.PopupOX;
+import edu.skku.woongjin_ai.Package_4_3_GameList.BattleClass.Game.ProblemSetting.PopupSmall;
+import edu.skku.woongjin_ai.Package_4_3_GameList.BattleClass.Game.ProblemSetting.ServerConnection;
+import edu.skku.woongjin_ai.R;
+import edu.skku.woongjin_ai.WeekInfo;
+import edu.skku.woongjin_ai.mediarecorder.MediaRecorderActivity;
 
 /*
 from SelectTypeActivity
